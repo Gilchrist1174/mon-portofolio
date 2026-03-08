@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+    <style>
+        /* Fond d'écran */
+        body {
+            background-image: url("python.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px;
+            background-color: rgba(0,0,0,0.2); /* semi-transparent pour lisibilité */
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        pre {
+            background-color: rgba(255,255,255,0.1);
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Section Présentation -->
+    <section id="presentation">
+        <h1>MONTCHO</h1>
+        <h2>Gilchrist</h2>
+        <p>Je suis passionné par la programmation et j’apprends actuellement Python ainsi que le développement web.
+        J’aime comprendre comment les choses fonctionnent en créant mes propres projets.
+        Mon objectif est de devenir un développeur autonome et polyvalent.</p>
+    </section>
+
+    <!-- Section À propos / compétences -->
+    <section id="a-propos">
+        <h3>Mes projets et compétences</h3>
+        <ul>
+            <li>Python</li>
+            <li>Tkinter</li>
+            <li>Pygame</li>
+        </ul>
+    </section>
+
+    <!-- Section Convertisseur Python -->
+    <section id="projets">
+        <h3>Mon Convertisseur Python</h3>
+
+        <!-- Affichage du code -->
+        <pre>
+<code>
+def c_to_f(c):
+    return (c * 9/5) + 32
+
+temp = float(input("Température en Celsius: "))
+print("En Fahrenheit:", c_to_f(temp))
+</code>
+        </pre>
+
+        <!-- Lien pour télécharger le fichier Python -->
+        <a href="return.py" download>Télécharger le fichier Python</a>
+    </section>
+
+</body>
+</html>
